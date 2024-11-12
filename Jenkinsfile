@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/your-username/jenkins-website-ci.git'
+                git url: 'https://github.com/abdullahak098/jenkins-website-ci.git'
             }
         }
         stage('Build Website') {
